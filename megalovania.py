@@ -16,7 +16,7 @@ GPIO.setup(spkrTwo,GPIO.OUT)
 
 #funcs
 def delay(seconds):
-    time.sleep(seconds/1500)
+    time.sleep(seconds/1750)
 
 def tone(r,hertz,duration):
     pwm = GPIO.PWM(spkrOne,hertz)
